@@ -50,7 +50,7 @@ petForm.addEventListener('submit', async (e) => {
     if (error) {
         displayError();
     } else {
-        location.assign('/')
+        location.assign('/');
     }
     // > Part B:
     //    - call function to create the pet in the database

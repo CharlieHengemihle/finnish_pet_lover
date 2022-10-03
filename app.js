@@ -19,12 +19,12 @@ window.addEventListener('load', async () => {
     error = response.error;
     pets = response.data;
 
-    if(error) {
-            displayError();
-        }
-        if (pets) {
-            displayPets();
-        }
+    if (error) {
+        displayError();
+    }
+    if (pets) {
+        displayPets();
+    }
     
 
     // > Part C:
