@@ -1,7 +1,7 @@
 /* Imports */
 // this will check if we have a user and set signout link if it exists
 import '../auth/user.js';
-import { uploadImage } from '../fetch-utils.js';
+import { uploadImage, createPet } from '../fetch-utils.js';
 // > Part A: import upload image
 // > Part B: import fetch to create a pet
 
@@ -50,7 +50,7 @@ petForm.addEventListener('submit', async (e) => {
     if (error) {
         displayError();
     } else {
-        
+        location.assign('/')
     }
     // > Part B:
     //    - call function to create the pet in the database
